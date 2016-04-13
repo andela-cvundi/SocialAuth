@@ -13,6 +13,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass'
 #Twitter authentication
 gem 'omniauth-twitter'
+#facebook authentication
+gem 'omniauth-facebook'
 
 group :development, :test do
     gem 'byebug'
