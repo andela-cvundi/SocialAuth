@@ -10,6 +10,10 @@ class SessionsController < ApplicationController
         redirect_to root_path
     end
 
+    def auth_failure
+        redirect_to root_path
+    end
+
     def destroy
         if current_user
             session.delete(:user_id)
