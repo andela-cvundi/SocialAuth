@@ -15,6 +15,8 @@ gem 'bootstrap-sass'
 gem 'omniauth-twitter'
 #facebook authentication
 gem 'omniauth-facebook'
+#Google authentivcation
+gem "omniauth-google-oauth2"
 
 group :development, :test do
     gem 'byebug'
